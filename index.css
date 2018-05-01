@@ -1,0 +1,9 @@
+input {
+    width: 30px;
+}
+
+span {
+    display: inline-block;
+    min-width: 20px;
+    margin-right: 10px;
+}

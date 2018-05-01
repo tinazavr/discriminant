@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Квадратне рівняння</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <h3>Розрахунок коренів квадратного рівняння.</h3>
+    <p><i>При введені чисел, зверніть увагу, що значення <b>b<sup>2</sup></b> має бути більшим, ніж значення <b>4ac</b>!</i></p>
+    <input type="text" id="numberA" placeholder="a">x<sup>2</sup>+
+    <input type="text" id="numberB" placeholder="b">x+
+    <input type="text" id="numberC" placeholder="c">=0
+    <br>
+    <button onclick="discriminant()">Розрахувати</button>
+    <div>
+        x<sub>1</sub>=<span id="result1"></span>
+        x<sub>2</sub>=<span id="result2"></span>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
